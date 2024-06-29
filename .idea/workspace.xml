@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="pana la sesiunea 26">
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex10storemanagement/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex10storemanagement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex10storemanagement/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex10storemanagement/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex15cypher/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex18shoppingcart/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex18shoppingcart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex18shoppingcart/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex18shoppingcart/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex9stockmarket/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex9stockmarket/StockMarket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="ex9+ex10+ex15+ex18">
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex17anagrame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2iK5Gjp7W8bDb0XT3n7GnkeqQ26" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +47,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.exercitii.ex15cypher.Main.executor": "Run",
+    "Application.exercitii.ex17anagrame.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -75,7 +72,7 @@
       <recent name="exercitii.ex18shoppingcart" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.exercitii.ex17anagrame.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercitii.ex9stockmarket.Main" />
       <module name="Colectii" />
@@ -89,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercitii.ex17anagrame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercitii.ex17anagrame.Main" />
+      <module name="Colectii" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercitii.ex17anagrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercitii.ex17anagrame.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -111,8 +122,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719226336028</updated>
-      <workItem from="1719241778976" duration="9281000" />
+      <workItem from="1719241778976" duration="9528000" />
+      <workItem from="1719297924609" duration="3013000" />
+      <workItem from="1719640800232" duration="10734000" />
     </task>
+    <task id="LOCAL-00001" summary="ex9+ex10+ex15+ex18">
+      <option name="closed" value="true" />
+      <created>1719251227589</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719251227589</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pana la sesiunea 26" />
-    <option name="LAST_COMMIT_MESSAGE" value="pana la sesiunea 26" />
+    <MESSAGE value="ex9+ex10+ex15+ex18" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex9+ex10+ex15+ex18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
