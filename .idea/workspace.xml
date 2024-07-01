@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="ex9+ex10+ex15+ex18">
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex17anagrame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Type.java" afterDir="false" />
+    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="ex17+ex20(de terminat ca tema)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Review.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,7 @@
     "Application.Main.executor": "Run",
     "Application.exercitii.ex15cypher.Main.executor": "Run",
     "Application.exercitii.ex17anagrame.Main.executor": "Run",
+    "Application.exercitii.ex20IMDBclone.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -72,7 +70,7 @@
       <recent name="exercitii.ex18shoppingcart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exercitii.ex17anagrame.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercitii.ex9stockmarket.Main" />
       <module name="Colectii" />
@@ -124,7 +122,9 @@
       <updated>1719226336028</updated>
       <workItem from="1719241778976" duration="9528000" />
       <workItem from="1719297924609" duration="3013000" />
-      <workItem from="1719640800232" duration="10734000" />
+      <workItem from="1719640800232" duration="16669000" />
+      <workItem from="1719670670116" duration="3362000" />
+      <workItem from="1719834160400" duration="17439000" />
     </task>
     <task id="LOCAL-00001" summary="ex9+ex10+ex15+ex18">
       <option name="closed" value="true" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719251227589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ex17+ex20(de terminat ca tema)">
+      <option name="closed" value="true" />
+      <created>1719652179305</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719652179305</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +151,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pana la sesiunea 26" />
     <MESSAGE value="ex9+ex10+ex15+ex18" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex9+ex10+ex15+ex18" />
+    <MESSAGE value="ex17+ex20(de terminat ca tema)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex17+ex20(de terminat ca tema)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -157,6 +166,11 @@
           <url>file://$PROJECT_DIR$/src/exercitii/ex9stockmarket/Main.java</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

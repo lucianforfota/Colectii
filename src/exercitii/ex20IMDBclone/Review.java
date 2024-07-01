@@ -10,11 +10,10 @@ public enum Review {
 
     private final int reviewValue;
 
-    public int getReviewValue() {
-        return reviewValue;
-    }
-
     Review (int reviewValue){
         this.reviewValue = reviewValue;
+    }
+    public int getReviewValue() {
+        return reviewValue;
     }
 }
