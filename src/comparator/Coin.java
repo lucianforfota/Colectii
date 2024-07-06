@@ -8,9 +8,19 @@ public class Coin implements Comparable<Coin> {
     private int nominalValue;
     private int mintYear;
 
+    private String color;
+
     public Coin(int nominalValue, int mintYear) {
         this.nominalValue = nominalValue;
         this.mintYear = mintYear;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public int getNominalValue() {

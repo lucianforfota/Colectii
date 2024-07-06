@@ -9,7 +9,7 @@ public class Movie {
     private Genre genre;
     private Set<Actor> cast;
     private Type type;
-    List<Review> reviewList;
+    private List<Review> reviewList;
 
     public Movie(String title, Integer releaseYear, Genre genre, Set<Actor> cast, Type type, List<Review> reviewList) {
         this.title = title;
@@ -17,6 +17,10 @@ public class Movie {
         this.genre = genre;
         this.cast = cast;
         this.type = type;
+        this.reviewList = reviewList;
+    }
+
+    public Movie(List<Review> reviewList) {
         this.reviewList = reviewList;
     }
 
