@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="ex17+ex20(de terminat ca tema)">
+    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="completari comparator,exercitiu algoritmica,ex.16 si ex 21">
+      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Ex1MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Ex2ReplaceWithProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Ex5GroupSameElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Review.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,37 +38,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.exercitii.ex15cypher.Main.executor": "Run",
-    "Application.exercitii.ex17anagrame.Main.executor": "Run",
-    "Application.exercitii.ex20IMDBclone.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LucianForfota/IdeaProjects/Colectii",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.comparator.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercitii.ex15cypher.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercitii.ex17anagrame.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercitii.ex20IMDBclone.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exercitii.ex21budgetmanager.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LucianForfota/IdeaProjects/Colectii&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lucian-Uvx\IdeaProjects\Colectii\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LucianForfota\IdeaProjects\Colectii\src\exercitii" />
       <recent name="C:\Users\LucianForfota\IdeaProjects\Colectii\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="exercitii.ex18shoppingcart" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.exercitii.ex17anagrame.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercitii.ex9stockmarket.Main" />
       <module name="Colectii" />
@@ -124,7 +125,16 @@
       <workItem from="1719297924609" duration="3013000" />
       <workItem from="1719640800232" duration="16669000" />
       <workItem from="1719670670116" duration="3362000" />
-      <workItem from="1719834160400" duration="17439000" />
+      <workItem from="1719834160400" duration="17887000" />
+      <workItem from="1719921058995" duration="3800000" />
+      <workItem from="1720002644147" duration="10052000" />
+      <workItem from="1720175144199" duration="2000" />
+      <workItem from="1720188728053" duration="2360000" />
+      <workItem from="1720245312867" duration="1028000" />
+      <workItem from="1720246379730" duration="8420000" />
+      <workItem from="1720623927926" duration="2858000" />
+      <workItem from="1720803613013" duration="164000" />
+      <workItem from="1720851136145" duration="7989000" />
     </task>
     <task id="LOCAL-00001" summary="ex9+ex10+ex15+ex18">
       <option name="closed" value="true" />
@@ -142,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719652179305</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completari exercitiu 20, sesiunea 30">
+      <option name="closed" value="true" />
+      <created>1719856196249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719856196249</updated>
+    </task>
+    <task id="LOCAL-00004" summary="completari comparator,exercitiu algoritmica,ex.16 si ex 21">
+      <option name="closed" value="true" />
+      <created>1720253505949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720253505949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +178,9 @@
     <MESSAGE value="pana la sesiunea 26" />
     <MESSAGE value="ex9+ex10+ex15+ex18" />
     <MESSAGE value="ex17+ex20(de terminat ca tema)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex17+ex20(de terminat ca tema)" />
+    <MESSAGE value="completari exercitiu 20, sesiunea 30" />
+    <MESSAGE value="completari comparator,exercitiu algoritmica,ex.16 si ex 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="completari comparator,exercitiu algoritmica,ex.16 si ex 21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
