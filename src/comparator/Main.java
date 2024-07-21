@@ -23,7 +23,7 @@ public class Main {
 
         Collections.sort(coins, new MIntYearComparator());
 
-        Collections.sort(coins, new ColorComparator());
+//        Collections.sort(coins, new ColorComparator());
 
         System.out.println(coins);
 

@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="completari comparator,exercitiu algoritmica,ex.16 si ex 21">
-      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Ex1MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Ex2ReplaceWithProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Ex5GroupSameElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Reversedpairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex19adventuregame/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex19adventuregame/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex19adventuregame/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/algorithmics/JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/JewelsAndStones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,40 +46,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.comparator.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex15cypher.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex17anagrame.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex20IMDBclone.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex21budgetmanager.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LucianForfota/IdeaProjects/Colectii&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.JewelsAndStones.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Reversedpairs.executor": "Debug",
+    "Application.Reversedpaors.executor": "Run",
+    "Application.comparator.Main.executor": "Run",
+    "Application.exercitii.ex15cypher.Main.executor": "Run",
+    "Application.exercitii.ex17anagrame.Main.executor": "Run",
+    "Application.exercitii.ex20IMDBclone.Main.executor": "Run",
+    "Application.exercitii.ex21budgetmanager.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/LucianForfota/IdeaProjects/Colectii/src/exercitii/ex19adventuregame",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LucianForfota\IdeaProjects\Colectii\src\exercitii\ex19adventuregame" />
       <recent name="C:\Users\Lucian-Uvx\IdeaProjects\Colectii\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\LucianForfota\IdeaProjects\Colectii\src\exercitii" />
       <recent name="C:\Users\LucianForfota\IdeaProjects\Colectii\src" />
+      <recent name="C:\Users\LucianForfota\IdeaProjects\Colectii\src\exercitii" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="exercitii.ex18shoppingcart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exercitii.ex17anagrame.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercitii.ex9stockmarket.Main" />
       <module name="Colectii" />
@@ -135,6 +148,17 @@
       <workItem from="1720623927926" duration="2858000" />
       <workItem from="1720803613013" duration="164000" />
       <workItem from="1720851136145" duration="7989000" />
+      <workItem from="1721055779831" duration="1072000" />
+      <workItem from="1721057612464" duration="1823000" />
+      <workItem from="1721216482319" duration="154000" />
+      <workItem from="1721216938821" duration="31000" />
+      <workItem from="1721230291234" duration="5344000" />
+      <workItem from="1721239332663" duration="33000" />
+      <workItem from="1721240717924" duration="37000" />
+      <workItem from="1721241352987" duration="89000" />
+      <workItem from="1721243488031" duration="445000" />
+      <workItem from="1721487537804" duration="12467000" />
+      <workItem from="1721559367179" duration="12607000" />
     </task>
     <task id="LOCAL-00001" summary="ex9+ex10+ex15+ex18">
       <option name="closed" value="true" />

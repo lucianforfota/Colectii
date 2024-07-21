@@ -1,8 +1,5 @@
 package exercitii.ex21budgetmanager;
 
-import exercitii.ex20IMDBclone.Genre;
-import exercitii.ex20IMDBclone.Movie;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -12,7 +9,7 @@ public class User {
     private List<Purchase> purchases;
     private int maxbudget;
 
-    public User( int maxbudget) {
+    public User(List<Purchase> purchases, int maxbudget) {
         this.maxbudget = maxbudget;
     }
 
@@ -40,18 +37,18 @@ public class User {
 
     }
 
-    public Map<Category, List<Purchase>> groupPurchasesByCategory(){
+    public Map<Category, List<Purchase>> groupPurchasesByCategory() {
         Map<Category, List<Purchase>> purchasesByCategory = new HashMap<>();
-        for (Purchase purchase: purchases){
+        for (Purchase purchase : purchases) {
             //daca categoria lui purchase nu se afla in mapa ca si cheie
-                //punem in mapa cheia categoria lui purchase si valoarea o lista cu purchase curenta
+            //punem in mapa cheia categoria lui purchase si valoarea o lista cu purchase curenta
             //altfel
-                //adauga in lista (care e valoarea la cheia categoria lui purchase) pe purchase-ul curent
-            if(!purchasesByCategory.containsKey(purchase.getCategory())){
+            //adauga in lista (care e valoarea la cheia categoria lui purchase) pe purchase-ul curent
+            if (!purchasesByCategory.containsKey(purchase.getCategory())) {
                 List<Purchase> value = new ArrayList<>();
                 value.add(purchase);
-                purchasesByCategory.put(purchase.getCategory(),value);
-            } else{
+                purchasesByCategory.put(purchase.getCategory(), value);
+            } else {
                 purchasesByCategory.get(purchase.getCategory()).add(purchase);
             }
         }
@@ -60,20 +57,42 @@ public class User {
 
 
 
+    //vizualizarea categoriei in care s-a cheltuit cel mai mut
+    public Category getTheCategoryWithTheHighestPurchase() {
+        //apelam medoda care creaza o mapa si bagam rezultatul intr-o variabila
+        Map<Category, Double> categoriesByPrice = groupCategoriesByTotalPrice ();
+        return getaAcoloUndeMiamDatTotiBanii(categoriesByPrice);
+        }
+
+        public Category getaAcoloUndeMiamDatTotiBanii (Map < Category, Double > categoriesByPrice){
+            //parcurg fiecare cheie din mapa
+            double maxValue = 0;
+            Category acoloUndeMiamDatTotiBanii = null;
+            for (Category category : categoriesByPrice.keySet()) {
+                //daca valoarea de la cheia curenta este mai mare decat maxValue
+                if (categoriesByPrice.get(category) > maxValue) {
+                    maxValue = categoriesByPrice.get(category);
+                    acoloUndeMiamDatTotiBanii = category;
+                }
+            }
+            return acoloUndeMiamDatTotiBanii;
+        }
+
+        //parcurg fiecare valoare din mapa(??Olimpiu intrebare)
+        //for (Double price : categoryByPrice.values()){
 
 
+        public Map<Category, Double> groupCategoriesByTotalPrice () {
+            Map<Category, Double> categoryByPrice = new HashMap<>();
+            for (Purchase purchase : purchases) {
+                if (!categoryByPrice.containsKey(purchase.getCategory())) {
+                    categoryByPrice.put(purchase.getCategory(), purchase.getPrice());
+                } else {
+                    categoryByPrice.put(purchase.getCategory(), categoryByPrice.get(purchase.getCategory()) + purchase.getPrice());
+                }
+            }
+            return categoryByPrice;
+        }
+    }
 
 
-//    public List<Movie> getAllMoviesByGenre(Genre genre) {
-//        List<Movie> genreMovies = new ArrayList<>();
-//        for (Movie movie : movies) {
-//            //daca genul movi-ului curent este egal cu cel care vine ca parametru
-//            if (movie.getGenre().equals(genre)){
-//                genreMovies.add(movie);
-//            }
-//        }
-//        return genreMovies;
-
-
-
-}
