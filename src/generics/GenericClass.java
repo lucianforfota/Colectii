@@ -1,5 +1,7 @@
 package generics;
 
+
+//aceasta este o clasa generica
 public class GenericClass<T> {
 
     private T t;

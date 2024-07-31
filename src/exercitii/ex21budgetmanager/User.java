@@ -1,9 +1,6 @@
 package exercitii.ex21budgetmanager;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class User {
     private List<Purchase> purchases;
@@ -75,11 +72,13 @@ public class User {
                     acoloUndeMiamDatTotiBanii = category;
                 }
             }
+
             return acoloUndeMiamDatTotiBanii;
         }
 
+        //for (Double price : categoriesByPrice.values()) {
         //parcurg fiecare valoare din mapa(??Olimpiu intrebare)
-        //for (Double price : categoryByPrice.values()){
+
 
 
         public Map<Category, Double> groupCategoriesByTotalPrice () {

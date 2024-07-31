@@ -19,8 +19,7 @@ public class Reversedpairs {
         //output-[diaper,repaid],[abc,cba]
 
         List<String> lista = List.of("diaper", "abc","abc", "test", "cba", "repaid","mos","som");
-        System.out.println( getReversedPairs(lista));;
-
+        System.out.println( getReversedPairs(lista));
     }
 
     public static List<List<String>> getReversedPairs(List<String> words) {
@@ -43,6 +42,8 @@ public class Reversedpairs {
                 //sterg din set inversul lui
                 wordsSet.remove(reversedWord);
             }
+
+
         }
         //returnez outputul
         return reversedPairs;

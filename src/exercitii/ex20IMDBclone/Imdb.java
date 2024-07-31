@@ -1,9 +1,7 @@
 package exercitii.ex20IMDBclone;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Imdb {
 
@@ -32,6 +30,12 @@ public class Imdb {
         return genreMovies;
     }
 
+    public List<Movie> getAllMoviesByGenreLambda(Genre genre) {
+        return movies.stream()
+                .filter(movie -> movie.getCast().equals(genre))
+                .collect(Collectors.toList());
+    }
+
     public Map<Genre, List<Movie>> groupAllMoviesByGenre() {
         Map<Genre, List<Movie>> moviesByGenre = new HashMap<>();
         for (Movie movie: movies){
@@ -51,8 +55,28 @@ public class Imdb {
         return moviesByGenre;
     }
 
-    public List<Actor> findAllActorsByTypeAndGenre(Type type, Genre genre) {
-        return null;
+    public Map<Genre, List<Movie>> groupAllMoviesByGenreLambda() {
+        return movies.stream()
+                .collect(Collectors.groupingBy(movie -> movie.getGenre()));
+
+    }
+
+    public Set<Actor> findAllActorsByTypeAndGenre(Type type, Genre genre) {
+        return movies.stream()
+                .filter(movie -> movie.getGenre().equals(genre) && movie.getType().equals(type))
+                .flatMap(movie -> movie.getCast().stream())
+                .collect(Collectors.toSet());
+
+
+                /*Set<Actor> result = new HashSet<>();
+                for (Movie movie: movies){
+                    if (movie.getGenre().equals(genre) && movie.getType().equals(type)) {
+                        for (Actor actor: movie.getCast()){
+                            result.add(actor);
+                        }
+                    }
+                }*/
+
     }
 
     public Actor findMostPopularActor (){

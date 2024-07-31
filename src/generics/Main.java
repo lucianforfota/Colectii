@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        GenericClass<Integer> object1 = new GenericClass<>(10);
+        GenericClass<Integer> object1 = new GenericClass<>(500);
         GenericClass<String> object2 = new GenericClass<>("abc");
 
         Integer number = object1.get();
