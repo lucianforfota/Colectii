@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="groupsanagrams,jewelsandstones,reversedpairs,ex19adventuregame,ex21budgetmanager-sesiunea 32 si sesiunea 33">
-      <change afterPath="$PROJECT_DIR$/src/exercitii/interfaceexample/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercitii/interfaceexample/D.java" afterDir="false" />
+    <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="totul pana la sesiunea 38 (recapitulare polimorfism,scrierea metodelor clasice cu lamda,folosirea streamurilor)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/algorithmics/Reversedpairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/algorithmics/Reversedpairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Imdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercitii/ex16/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex16/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/SimpleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/SimpleClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,32 +38,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JewelsAndStones.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reversedpairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reversedpaors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.comparator.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex15cypher.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex17anagrame.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex20IMDBclone.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.exercitii.ex21budgetmanager.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.generics.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LucianForfota/IdeaProjects/principiile-oop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.JewelsAndStones.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Reversedpairs.executor": "Run",
+    "Application.Reversedpaors.executor": "Run",
+    "Application.comparator.Main.executor": "Run",
+    "Application.exercitii.ex15cypher.Main.executor": "Run",
+    "Application.exercitii.ex17anagrame.Main.executor": "Run",
+    "Application.exercitii.ex20IMDBclone.Main.executor": "Run",
+    "Application.exercitii.ex21budgetmanager.Main.executor": "Run",
+    "Application.generics.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/LucianForfota/IdeaProjects/Colectii",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LucianForfota\IdeaProjects\Colectii\src\exercitii\ex19adventuregame" />
@@ -176,7 +170,8 @@
       <workItem from="1722064365757" duration="2768000" />
       <workItem from="1722438755895" duration="127000" />
       <workItem from="1722446107895" duration="253000" />
-      <workItem from="1722446435482" duration="1092000" />
+      <workItem from="1722446435482" duration="1385000" />
+      <workItem from="1722671438224" duration="3041000" />
     </task>
     <task id="LOCAL-00001" summary="ex9+ex10+ex15+ex18">
       <option name="closed" value="true" />
@@ -218,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721589839939</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="totul pana la sesiunea 38 (recapitulare polimorfism,scrierea metodelor clasice cu lamda,folosirea streamurilor)">
+      <option name="closed" value="true" />
+      <created>1722447739551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722447739551</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +234,8 @@
     <MESSAGE value="completari exercitiu 20, sesiunea 30" />
     <MESSAGE value="completari comparator,exercitiu algoritmica,ex.16 si ex 21" />
     <MESSAGE value="groupsanagrams,jewelsandstones,reversedpairs,ex19adventuregame,ex21budgetmanager-sesiunea 32 si sesiunea 33" />
-    <option name="LAST_COMMIT_MESSAGE" value="groupsanagrams,jewelsandstones,reversedpairs,ex19adventuregame,ex21budgetmanager-sesiunea 32 si sesiunea 33" />
+    <MESSAGE value="totul pana la sesiunea 38 (recapitulare polimorfism,scrierea metodelor clasice cu lamda,folosirea streamurilor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="totul pana la sesiunea 38 (recapitulare polimorfism,scrierea metodelor clasice cu lamda,folosirea streamurilor)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,7 @@
 package exercitii.ex16;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Library {
 
@@ -40,6 +41,12 @@ public class Library {
             }
         }
         return findBooks;
+    }
+
+    public List<Book> findBooksByGenreLambda(Genre genre) {
+        return books.stream()
+                .filter(book -> book.getGenre().equals(genre))
+                .collect(Collectors.toList());
     }
 
     public void addBook(Book book) throws Exception {
