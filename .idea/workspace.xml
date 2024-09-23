@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c88d03-769e-467d-89f9-65b038ec7c29" name="Changes" comment="totul pana la sesiunea 38 (recapitulare polimorfism,scrierea metodelor clasice cu lamda,folosirea streamurilor)">
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex23cardsgame/BlackJack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex23cardsgame/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex23cardsgame/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex23cardsgame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex23cardsgame/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercitii/ex23cardsgame/Poker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex16/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex16/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercitii/ex21budgetmanager/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comparator/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparator/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +56,13 @@
     "Application.exercitii.ex17anagrame.Main.executor": "Run",
     "Application.exercitii.ex20IMDBclone.Main.executor": "Run",
     "Application.exercitii.ex21budgetmanager.Main.executor": "Run",
+    "Application.exercitii.ex23cardsgame.Main.executor": "Run",
     "Application.generics.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LucianForfota/IdeaProjects/Colectii",
+    "last_opened_file_path": "C:/Users/LucianForfota/IdeaProjects/Lamba-Streams",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +84,7 @@
       <recent name="exercitii.ex18shoppingcart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reversedpairs">
+  <component name="RunManager" selected="Application.exercitii.ex23cardsgame.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercitii.ex9stockmarket.Main" />
       <module name="Colectii" />
@@ -117,8 +124,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exercitii.ex23cardsgame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercitii.ex23cardsgame.Main" />
+      <module name="Colectii" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercitii.ex23cardsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercitii.ex23cardsgame.Main" />
         <item itemvalue="Application.Reversedpairs" />
         <item itemvalue="Application.exercitii.ex17anagrame.Main" />
         <item itemvalue="Application.Main" />
@@ -172,6 +193,16 @@
       <workItem from="1722446107895" duration="253000" />
       <workItem from="1722446435482" duration="1385000" />
       <workItem from="1722671438224" duration="3041000" />
+      <workItem from="1722870262458" duration="388000" />
+      <workItem from="1722881675403" duration="21000" />
+      <workItem from="1723206807752" duration="10000" />
+      <workItem from="1724089007075" duration="26000" />
+      <workItem from="1724256831444" duration="21000" />
+      <workItem from="1725956528462" duration="118000" />
+      <workItem from="1725956723711" duration="8404000" />
+      <workItem from="1725966291834" duration="715000" />
+      <workItem from="1726671362455" duration="46000" />
+      <workItem from="1727104374762" duration="8760000" />
     </task>
     <task id="LOCAL-00001" summary="ex9+ex10+ex15+ex18">
       <option name="closed" value="true" />
@@ -254,6 +285,11 @@
           <url>file://$PROJECT_DIR$/src/exercitii/ex20IMDBclone/Main.java</url>
           <line>81</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercitii/ex23cardsgame/BlackJack.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

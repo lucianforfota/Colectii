@@ -21,9 +21,14 @@ public class Main {
         Collections.sort(coins);
         System.out.println(coins);
 
+        //putem sorta si pe clasa collections
         Collections.sort(coins, new MIntYearComparator());
 
-//        Collections.sort(coins, new ColorComparator());
+        //putem sorta dirct pe coins. sortul in acest caz are nevie ca si parametru de un obiect de tip comparator pe care il creem noi
+        //coins.sort(new MIntYearComparator());
+
+        //aici sortam pe clasa collections si ii dam ca parametru un coins si un comparator
+        //Collections.sort(coins, new ColorComparator());
 
         System.out.println(coins);
 

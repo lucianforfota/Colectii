@@ -67,6 +67,6 @@ public class Coin implements Comparable<Coin> {
         } else if (this.nominalValue < coin.nominalValue) {
             return -1;
         }
-        return 1;
+        return  1;
     }
 }
